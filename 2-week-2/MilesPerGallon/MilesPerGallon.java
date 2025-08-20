@@ -3,6 +3,7 @@ package ch01;
 import java.util.Scanner;
 
 public class MilesPerGallon {
+
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
@@ -20,4 +21,5 @@ public class MilesPerGallon {
         // Output results in a "good" manner
         System.out.println(miles + " miles per " + gallons + " gallon: " + mpg);
     }
+    
 }
