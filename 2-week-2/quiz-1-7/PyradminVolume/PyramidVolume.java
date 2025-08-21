@@ -7,7 +7,7 @@
  */
 
 // write your code below
-class PyramidVolume {
+public class PyramidVolume {
 
     public static void main(String[] args) {
         System.out.println((40000 * 150) / 3);
