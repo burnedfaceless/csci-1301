@@ -10,7 +10,7 @@
 class Lab02Prob02 {
 
     public static void main(String[] args) {
-        // create an integer named birthYear and store 1997
+        // create an integer named birthYear and store 1998
         int birthYear = 1998;
         int currentYear = 2025;
         int currentAge = currentYear - birthYear;

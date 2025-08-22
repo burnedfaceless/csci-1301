@@ -13,7 +13,7 @@ class Lab02Prob03 {
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        // create an integer named birthYear and store 1997
+        // Prompt the user for their birth year
         System.out.print("Enter your birth year: ");
         int birthYear = input.nextInt();
         int currentYear = 2025;
