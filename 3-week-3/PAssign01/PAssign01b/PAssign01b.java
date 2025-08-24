@@ -21,7 +21,7 @@ class PAssign01b {
         double height = input.nextDouble();
 
         // calculate the area of the triangle (area = 1/2 * Base * Height)
-        double area = ((1.0/2.0) * base * height);
+        double area = ((1.0 / 2.0) * base * height);
         // display output to user
         System.out.println("A triangle with base " + base + " and height " + height + " has an area of " + area + ".");
     }
