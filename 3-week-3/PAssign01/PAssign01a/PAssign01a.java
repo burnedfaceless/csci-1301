@@ -15,8 +15,8 @@ class PAssign01a {
         Scanner input = new Scanner(System.in);
 
         // store cost of items in a constant
-        final double beveragePrice = 0.50;
-        final double sandwichPrice = 2.75;
+        final double BEVERAGE_PRICE = 0.50;
+        final double SANDWICH_PRICE = 2.75;
 
         // prompt the user for number of beverages and sandwiches
         System.out.print("Enter the number of Beverages: ");
@@ -25,7 +25,7 @@ class PAssign01a {
         double numofSandwiches = input.nextDouble();
 
         // calculate total cost
-        double totalCost = (numOfBeverages * beveragePrice) + (numofSandwiches * sandwichPrice);
+        double totalCost = (numOfBeverages * BEVERAGE_PRICE) + (numofSandwiches * SANDWICH_PRICE);
 
         // display output to user
         System.out.println("The total of " + numOfBeverages + " beverages and " + numofSandwiches + " sandwiches is $" + totalCost + ".");
