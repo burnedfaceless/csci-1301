@@ -15,8 +15,6 @@ class CalculateYearsAndMonths {
 
         // output
         System.out.println("You have " + totalYears + " year(s) and " + totalMonthsLeftover + " month(s) leftover.");
-
-
     }
 
 }
